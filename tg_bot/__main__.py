@@ -143,7 +143,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="💝Hᴇʟᴘ💝",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text=💖Sᴜᴘᴘᴏʀᴛ Gʀᴘ💖",
+                                                                                   InlineKeyboardButton(text="💖Sᴜᴘᴘᴏʀᴛ Gʀᴘ💖",
                                                                        url="t.me/DEADLY_USERBOT")],
                                                                                    [InlineKeyboardButton(text="✔️Aᴅᴅ Mᴇ Iɴ Uᴅ ɢʀᴘ",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
