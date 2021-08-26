@@ -144,7 +144,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🌹 Aᴅᴅ Mᴇ Iɴ Uʀ Gʀᴘ🌹",
                                                                        url="t.me/{}?startgroup=true".format(bot.username))
-                                                                                   InlineKeyboardButton(text="💖 Sᴜᴘᴘᴏʀᴛ 💖",
+                                                                                   [InlineKeyboardButton(text="💖 Sᴜᴘᴘᴏʀᴛ 💖",
                                                                        url="t.me/Deadly_Userbot")],
                                                                                    InlineKeyboardButton(text="💖 Mʏ ʙᴇsᴛɪᴇ💖 ",
                                                                        url="t.me/DEADLY_MANAGER_BOT")
