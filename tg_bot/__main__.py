@@ -148,7 +148,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        url="t.me/DEADLY_USERBOT")],
                                                                                    InlineKeyboardButton(text="❤️ Oᴡɴᴇʀ ❤️",
                                                                        url="t.me/DEADLY_OWNER_SAMEER")
-                                                                                 ]]))
+                                                                                 ]])
 
     else:          
         update.effective_message.reply_text("Yuss, I am Already ONline")
