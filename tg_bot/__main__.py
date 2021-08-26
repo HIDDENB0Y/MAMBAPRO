@@ -139,20 +139,20 @@ def start(bot: Bot, update: Update, args: List[str]):
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
                 TECHNO_IMG,
+                
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="💖 Hᴇʟᴘ 💖",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🌹 Aᴅᴅ Mᴇ Iɴ Uʀ Gʀᴘ🌹",
-                                                                       url="t.me/{}?startgroup=true".format(bot.username))
-                                                                                   [InlineKeyboardButton(text="💖 Sᴜᴘᴘᴏʀᴛ 💖",
-                                                                       url="t.me/Deadly_Userbot")],
-                                                                                   InlineKeyboardButton(text="💖 Mʏ ʙᴇsᴛɪᴇ💖 ",
+                                                                                   InlineKeyboardButton(text="💖 Sᴜᴘᴘᴏʀᴛ 💖",
+                                                                       url="t.me/DEADLY_USERBOT")],            
+                                                                                   [InlineKeyboardButton(text="💖 Aᴅᴅ Mᴇ ɪɴ Uʀ Gʀᴏᴜᴘ 💖",
+                                                                       url="t.me/{}?startgroup=true".format(bot.username)),
+                                                                                   InlineKeyboardButton(text="💖 Mʏ Bᴇsᴛɪᴇ 💖",
                                                                        url="t.me/DEADLY_MANAGER_BOT")
-                                                                                         ]]))         
+                                                                                 ]]))
 
     else:
         update.effective_message.reply_text("Yuss, I am Already ONline")
-
 def send_start(bot, update):
     #Try to remove old message
     try:
