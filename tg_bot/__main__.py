@@ -30,7 +30,6 @@ Hᴇʟʟᴏ Tʜᴇʀᴇ, I ᴀᴍ  [𝗞𝗛𝗨𝗦𝗛𝗜](t.me/deadly_fighte
 I ᴀᴍ Aɴ Aɴɪᴍᴇ Tʜᴇᴍᴇᴅ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Aɴᴅ I ᴡɪʟʟ Hᴇʟᴘ U Iɴ Mᴀɴᴀɢɪɴɢ Uʀ Gʀᴏᴜᴘ
           
 ✪ Hɪᴛ /help Tᴏ Kɴᴏᴡ Aʙᴏᴜᴛ Mʏ Mᴏᴅᴜʟᴇs ✪ \n
-
 𝐌𝐘 𝐆𝐎𝐃 - [丂卂爪乇乇尺](t.me/DEADLY_OWNER_SAMEER)
 """         
           
