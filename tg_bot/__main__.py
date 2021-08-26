@@ -30,6 +30,7 @@ Hᴇʟʟᴏ Tʜᴇʀᴇ, I ᴀᴍ  [𝗞𝗛𝗨𝗦𝗛𝗜](t.me/deadly_fighte
 I ᴀᴍ Aɴ Aɴɪᴍᴇ Tʜᴇᴍᴇᴅ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Aɴᴅ I ᴡɪʟʟ Hᴇʟᴘ U Iɴ Mᴀɴᴀɢɪɴɢ Uʀ Gʀᴏᴜᴘ
           
 ✪ Hɪᴛ /help Tᴏ Kɴᴏᴡ Aʙᴏᴜᴛ Mʏ Mᴏᴅᴜʟᴇs ✪ \n
+
 𝐌𝐘 𝐆𝐎𝐃 - [丂卂爪乇乇尺](t.me/DEADLY_OWNER_SAMEER)
 """         
           
@@ -145,9 +146,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="💖 Sᴜᴘᴘᴏʀᴛ 💖",
                                                                        url="t.me/DEADLY_USERBOT")],            
-                                                                                   [InlineKeyboardButton(text="💖 Aᴅᴅ Mᴇ ɪɴ Uʀ Gʀᴏᴜᴘ 💖",
+                                                                                   [InlineKeyboardButton(text="💖 Aᴅᴅ Mᴇ ɪɴ Gʀᴘ 💖",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="💖 Mʏ Bᴇsᴛɪᴇ 💖",
+                                                                                   InlineKeyboardButton(text="💖 Mʏ Bᴇsᴛᴜ 💖",
                                                                        url="t.me/DEADLY_MANAGER_BOT")
                                                                                  ]]))
 
