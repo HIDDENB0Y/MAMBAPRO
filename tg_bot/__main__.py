@@ -140,12 +140,12 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🌹 Aᴅᴅ Mᴇ Iɴ Uʀ ɢʀᴘ🌹",                          
-                                                                       url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="💞 Hᴇʟᴘ 💞",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="💞 Hᴇʟᴘ 💞",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="💖 Sᴜᴘᴘᴏʀᴛ Gʀᴘ 💖",
                                                                        url="t.me/DEADLY_USERBOT")],
+                                                                                   InlineKeyboardButton(text="🌹 Aᴅᴅ Mᴇ Iɴ Uʀ ɢʀᴘ🌹",                          
+                                                                       url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="❤️ Oᴡɴᴇʀ ❤️",
                                                                        url="t.me/DEADLY_OWNER_SAMEER")
                                                                                  ]]))
