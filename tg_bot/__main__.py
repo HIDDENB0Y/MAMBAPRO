@@ -26,12 +26,12 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-Hᴇʟʟᴏ Tʜᴇʀᴇ, I ᴀᴍ  [𝗞𝗛𝗨𝗦𝗛𝗜](t.me/deadly_fighters)\n                 
+Hᴇʟʟᴏ Tʜᴇʀᴇ, I ᴀᴍ  [SUKHI](t.me/GROUPP_MAMBA)\n                 
 I ᴀᴍ Aɴ Aɴɪᴍᴇ Tʜᴇᴍᴇᴅ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Aɴᴅ I ᴡɪʟʟ Hᴇʟᴘ U Iɴ Mᴀɴᴀɢɪɴɢ Uʀ Gʀᴏᴜᴘ
           
 ✪ Hɪᴛ /help Tᴏ Kɴᴏᴡ Aʙᴏᴜᴛ Mʏ Mᴏᴅᴜʟᴇs ✪ \n
 
-𝐌𝐘 𝐆𝐎𝐃 - [丂卂爪乇乇尺](t.me/DEADLY_OWNER_SAMEER)
+𝐌𝐘 𝐆𝐎𝐃 - [SUKHI](t.me/SUKHI_MR_HACKER)
 """         
           
 HELP_STRINGS = """
@@ -145,11 +145,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="💖 Hᴇʟᴘ 💖",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="💖 Sᴜᴘᴘᴏʀᴛ 💖",
-                                                                       url="t.me/DEADLY_USERBOT")],            
+                                                                       url="t.me/GROUPP_MAFIA")],            
                                                                                    [InlineKeyboardButton(text="💖 Aᴅᴅ Mᴇ ɪɴ Gʀᴘ 💖",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="💖 Mʏ Bᴇsᴛᴜ 💖",
-                                                                       url="t.me/DEADLY_MANAGER_BOT")
+                                                                       url="t.me/MAMBA_GBOT")
                                                                                  ]]))
 
     else:
