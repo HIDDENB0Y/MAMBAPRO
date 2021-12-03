@@ -26,8 +26,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-Hᴇʟʟᴏ Tʜᴇʀᴇ, I ᴀᴍ  [SUKHI](t.me/GROUPP_MAMBA)\n                 
-I ᴀᴍ Aɴ Aɴɪᴍᴇ Tʜᴇᴍᴇᴅ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Aɴᴅ I ᴡɪʟʟ Hᴇʟᴘ U Iɴ Mᴀɴᴀɢɪɴɢ Uʀ Gʀᴏᴜᴘ
+Hᴇʟʟᴏ Tʜᴇʀᴇ, I ᴀᴍ  [MAMBA](t.me/MAMBA_GBOT)\n                 
+ıllıllı⭐🌟 I͙ ᴀᴍ A͙ɴ A͙ɴɪᴍᴇ T͙ʜᴇᴍᴇᴅ M͙ᴀɴᴀɢᴇᴍᴇɴᴛ B͙ᴏᴛ A͙ɴᴅ I͙ ᴡɪʟʟ H͙ᴇʟᴘ U͙ I͙ɴ M͙ᴀɴᴀɢɪɴɢ U͙ʀ G͙ʀᴏᴜᴘ 🌟⭐ıllıllı
           
 ✪ Hɪᴛ /help Tᴏ Kɴᴏᴡ Aʙᴏᴜᴛ Mʏ Mᴏᴅᴜʟᴇs ✪ \n
 
@@ -51,7 +51,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/76e47f1f4cf7a5b0e5d1a.jpg"
+TECHNO_IMG = "https://telegra.ph/file/9cd427371dc61347d8169.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -153,7 +153,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am Already ONline")
+        update.effective_message.reply_text("Yes, I am Already Online")
 def send_start(bot, update):
     #Try to remove old message
     try:
