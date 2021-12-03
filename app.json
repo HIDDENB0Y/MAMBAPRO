@@ -37,7 +37,7 @@
       },
       "OWNER_NAME": {
          "description": "Your username",
-         "value": "LEGENDX22"
+         "value": "SUKHI_MR_HACKER"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
@@ -46,7 +46,7 @@
       },
 "GRAND_IMG": {
          "description": "Image shows when hit /start",
-         "value": "https://telegra.ph/file/76e47f1f4cf7a5b0e5d1a.jpg"    
+         "value": "https://telegra.ph/file/e5f84dead7a3640ac5842.jpg"    
       },
       "GBAN_LOGS": {
          "description": "Gban log channel, include the hyphen too: ex: -123456",
@@ -114,7 +114,7 @@
       "manager",
       "bot"
    ],
-   "logo": "https://telegra.ph/file/76e47f1f4cf7a5b0e5d1a.jpg",
+   "logo": "https://telegra.ph/file/e5f84dead7a3640ac5842.jpg",
    "name": "MAMBAPRO",
    "repository": "https://github.com/SUKHPAL443/MAMBAPRO"
 }
